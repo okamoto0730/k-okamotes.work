@@ -24,3 +24,22 @@ h1, p, ul, ol, li {
   color: #ccc;
   font-size: 20px;
 }
+.button {
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.icon {
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
