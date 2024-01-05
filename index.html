@@ -1,72 +1,399 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <title>かわいいウェブサイト</title>
-  <style>
-    body {
-      font-family: "Hiragino Kaku Gothic Pro", sans-serif;
-      background-color: #fff;
-    }
+<!--
+// v0 by Vercel.
+// https://v0.dev/t/wPOXhaaxXUP
+-->
 
-    .container {
-      width: 900px;
-      margin: 0 auto;
-    }
-
-    .form {
-      width: 100%;
-      padding: 20px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-
-    .form-label {
-      font-size: 16px;
-      font-weight: bold;
-    }
-
-    .form-input {
-      width: 100%;
-      height: 40px;
-      border: 1px solid #ccc;
-      padding: 10px;
-    }
-
-    .submit-button {
-      background-color: #000;
-      color: #fff;
-      font-size: 16px;
-      font-weight: bold;
-      width: 100%;
-      height: 40px;
-      border: none;
-      cursor: pointer;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>かわいいウェブサイト</h1>
-
-    <form action="#">
-      <div class="form-group">
-        <label for="name" class="form-label">名前</label>
-        <input type="text" id="name" class="form-input">
-      </div>
-
-      <div class="form-group">
-        <label for="email" class="form-label">メールアドレス</label>
-        <input type="email" id="email" class="form-input">
-      </div>
-
-      <div class="form-group">
-        <label for="message" class="form-label">メッセージ</label>
-        <textarea id="message" class="form-input"></textarea>
-      </div>
-
-      <button type="submit" class="submit-button">送信</button>
-    </form>
-  </div>
-</body>
-</html>
+<div class="bg-[#e0f2fe]">
+  <header class="bg-white py-4">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-lg leading-6 font-semibold text-gray-900">Umi Shinonome Official Fanclub</h1>
+    </div>
+    <main>
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="bg-white rounded-lg p-6 shadow">
+          <h2 class="text-center text-2xl font-bold mb-4">会員登録</h2>
+          <div class="flex justify-center">
+            <button class="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 bg-blue-500 text-white px-6 py-2 rounded">
+              登録手続きのサービスはこちら
+            </button>
+          </div>
+          <p class="mt-4 text-center text-sm">内容をご確認いただき、ご入会の手続きをお願いします。</p>
+        </div>
+      </section>
+      <section class="py-8">
+        <div class="max-w-4xl mx-auto">
+          <div class="bg-[#fce4ec] rounded-lg p-6 mb-8">
+            <h3 class="text-pink-600 font-bold mb-4">お試しコース</h3>
+            <div class="grid grid-cols-2 gap-4">
+              <div class="rounded-lg border text-card-foreground shadow-sm bg-white" data-v0-t="card">
+                <div class="p-6">
+                  <div class="flex justify-between items-center mb-4">
+                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 w-fit text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">
+                      お試し
+                    </div>
+                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 w-fit text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">
+                      限定コース
+                    </div>
+                    <div class="text-orange-500 font-bold text-lg">500ポイント</div>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <div class="text-2xl font-bold">5,500円</div>
+                    <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2">
+                      登録
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="rounded-lg border text-card-foreground shadow-sm bg-white" data-v0-t="card">
+                <div class="p-6">
+                  <div class="flex justify-between items-center mb-4">
+                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 w-fit text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">
+                      お試し
+                    </div>
+                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 w-fit text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">
+                      限定コース
+                    </div>
+                    <div class="text-orange-500 font-bold text-lg">500ポイント</div>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <div class="text-2xl font-bold">5,500円</div>
+                    <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2">
+                      登録
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-[#f3e5f5] rounded-lg p-6">
+            <h3 class="text-purple-600 font-bold mb-4">ギフトとお試しコース</h3>
+            <div class="grid grid-cols-2 gap-4">
+              <div class="rounded-lg border text-card-foreground shadow-sm bg-white" data-v0-t="card">
+                <div class="p-6">
+                  <div class="flex justify-between items-center mb-4">
+                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 w-fit text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">
+                      お試し
+                    </div>
+                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 w-fit text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">
+                      ギフト対象商品
+                    </div>
+                    <div class="text-orange-500 font-bold text-lg">1,500ポイント</div>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <div class="text-2xl font-bold">1,500円</div>
+                    <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2">
+                      登録
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="rounded-lg border text-card-foreground shadow-sm bg-white" data-v0-t="card">
+                <div class="p-6">
+                  <div class="flex justify-between items-center mb-4">
+                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 w-fit text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">
+                      お試し
+                    </div>
+                    <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 w-fit text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">
+                      ギフト対象商品
+                    </div>
+                    <div class="text-orange-500 font-bold text-lg">1,500ポイント</div>
+                  </div>
+                  <div class="flex justify-between items-center">
+                    <div class="text-2xl font-bold">16,500円</div>
+                    <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2">
+                      登録
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-2 gap-8">
+            <div class="bg-white rounded-full p-6 text-center shadow">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="h-6 w-6 mx-auto mb-2"
+              >
+                <rect width="20" height="14" x="2" y="5" rx="2"></rect>
+                <line x1="2" x2="22" y1="10" y2="10"></line>
+              </svg>
+              <p class="text-sm">会員登録とクレジットカードの情報をお知らせください。</p>
+            </div>
+            <div class="bg-white rounded-full p-6 text-center shadow">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="h-6 w-6 mx-auto mb-2"
+              >
+                <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path>
+              </svg>
+              <p class="text-sm">マイページを見ることで、会員のプログラムを管理できます。</p>
+            </div>
+            <div class="bg-white rounded-full p-6 text-center shadow">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="h-6 w-6 mx-auto mb-2"
+              >
+                <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"></path>
+                <circle cx="12" cy="13" r="3"></circle>
+              </svg>
+              <p class="text-sm">限定ムービーを見ることができ、いつでも新しい情報を配信します。</p>
+            </div>
+            <div class="bg-white rounded-full p-6 text-center shadow">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="h-6 w-6 mx-auto mb-2"
+              >
+                <polyline points="20 12 20 22 4 22 4 12"></polyline>
+                <rect width="20" height="5" x="2" y="7"></rect>
+                <line x1="12" x2="12" y1="22" y2="7"></line>
+                <path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path>
+                <path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path>
+              </svg>
+              <p class="text-sm">ギフトを受け取るための会員の情報をアップデートお願いします。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-8">
+        <div class="max-w-4xl mx-auto">
+          <div class="bg-white rounded-lg p-6">
+            <h3 class="text-center text-2xl font-bold mb-4">オススメコンテンツ</h3>
+            <div class="relative w-full overflow-auto">
+              <table class="w-full caption-bottom text-sm">
+                <tbody class="[&amp;_tr:last-child]:border-0">
+                  <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+                    <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">会員登録</td>
+                    <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="text-green-500"
+                      >
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                      </svg>
+                    </td>
+                  </tr>
+                  <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+                    <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">マイページ見る</td>
+                    <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="text-green-500"
+                      >
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                      </svg>
+                    </td>
+                  </tr>
+                  <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+                    <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">限定ムービー</td>
+                    <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="text-green-500"
+                      >
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                      </svg>
+                    </td>
+                  </tr>
+                  <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+                    <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">ギフトを受け取る</td>
+                    <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="text-green-500"
+                      >
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                      </svg>
+                    </td>
+                  </tr>
+                  <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+                    <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">クーポン</td>
+                    <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="text-green-500"
+                      >
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                      </svg>
+                    </td>
+                  </tr>
+                  <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
+                    <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">イベントチケット</td>
+                    <td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-center">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="text-green-500"
+                      >
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                      </svg>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="bg-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex justify-center space-x-6">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="h-6 w-6 text-blue-500"
+            >
+              <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="h-6 w-6 text-pink-500"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="h-6 w-6 text-red-500"
+            >
+              <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"></path>
+              <path d="m10 15 5-3-5-3z"></path>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="h-6 w-6 text-black"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+            </svg>
+          </div>
+          <p class="mt-8 text-center text-xs text-gray-500">
+            お問い合わせ | プライバシーポリシー | 特定商取引法に基づく表記 | くじ引き規約 | 著作権 ©2022 NEC All
+            Rights Reserved.
+          </p>
+        </div>
+      </footer>
+    </main>
+  </header>
+</div>
