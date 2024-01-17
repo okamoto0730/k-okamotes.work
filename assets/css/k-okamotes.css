@@ -1,57 +1,144 @@
-/* Apply a background color to the entire container */
+/* Overall container styles */
 .bg-[#e0f2fe] {
-  background-color: #e0f2fe;
+  
+  backgr
+
+  
+background-color: #e0f2fe;
 }
 
 /* Header styles */
+
+head
 header.bg-white {
-  background-color: white;
+  
+  backgroun
+
+  backgr
+
+  bac
+
+  
+background-color: #fff;
+  
+  box-sha
+
+  box-
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Main section styles */
+
+ma
 main {
-  padding: 16px;
+  
+  paddin
+padding: 16px;
 }
 
+
+}
 /* Section styles */
+
+sectio
+
+s
 section {
-  margin-bottom: 16px;
+  
+  marg
+
+ 
+margin-bottom: 16px;
 }
 
 /* Card styles */
 .rounded-lg {
-  border-radius: 0.375rem;
+  
+  bor
+
+ 
+border-radius: 10px;
+  
+  box-shado
+
+  box-sh
+
+  box
+
+  
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Button styles */
 .button {
   display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  white-space: nowrap;
-  text-decoration: none;
-  font-size: 0.875rem;
-  font-weight: 500;
-  transition: background-color 0.3s ease-in-out;
-  outline: none;
+  
+  align
+align-items: center;
+  
+ 
+justify-content: center;
+  
+  white-spac
+
+  white-s
+
+  whit
+
+  w
+white-space: nowrap;
+  
+  text-decorat
+
+  text-deco
+
+  text-d
+
+  text
+text-decoration: none;
+  
+  
+font-size: 0.875rem;
+  
+  fon
+font-weight: 500;
+  
+  transiti
+
+ 
+transition: background-color 0.3s ease-in-out;
+  
+ 
+outline: none;
+  
+  curso
+cursor: pointer;
 }
 
 /* Primary button styles */
 .bg-blue-500 {
-  background-color: #3b82f6;
+  
+ 
+background-color: #4c71f2;
 }
 
 .text-white {
-  color: #fff;
+  
+ 
+color: #fff;
 }
 
+
+}
 /* Text styles */
 .text-center {
   text-align: center;
 }
 
 .text-2xl {
-  font-size: 1.5rem;
+  
+  
+font-size: 1.5rem;
 }
 
 .text-sm {
@@ -71,39 +158,97 @@ td, th {
 
 /* Footer styles */
 footer {
-  background-color: white;
-  padding: 16px;
+  
+  ba
+background-color: #fff;
+  
+ 
+padding: 16px;
+  
+  box
+box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Social media icons styles */
 .footer-icons {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
+  
+  di
+display: flex;
+  
+  justify-conte
+
+  justify
+
+  jus
+
+ 
+justify-content: center;
+  
+  ga
+gap: 1rem;
 }
 
+
+}
 .footer-icons svg {
-  height: 1.5rem;
-  width: 1.5rem;
-  fill: currentColor;
+  
+  heig
+
+  
+height: 1.5rem;
+  
+  wi
+width: 1.5rem;
+  fill: 
+  fill: #
+  fill:
+
+  f
+#4c71f2;
 }
 
+
+}
 /* Footer text styles */
 .text-gray-500 {
-  color: #6b7280;
+  
+  c
+color: #6b7280;
 }
 
+
+}
+
+.
 .text-xs {
   font-size: 0.75rem;
 }
 
 /* Responsive styles */
 @media screen and (min-width: 640px) {
-  main {
-    padding: 32px;
+  
+  ma
+main {
+    
+    pa
+padding: 32px;
   }
 
-  section {
-    margin-bottom: 32px;
+  
+  }
+
+  secti
+
+  }
+
+  s
+
+  }
+section {
+    
+    
+margin-bottom: 32px;
   }
 }
+
+  }
